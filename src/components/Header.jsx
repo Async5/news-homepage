@@ -10,6 +10,7 @@ const Header = () => {
   const [menuStatus, setMenuStatus] = useState(false)
 
   const toggleMenu = () => {
+    document.body.style.overflow = !menuStatus ? 'hidden' : 'unset'
     setMenuStatus((prevState) => {
       return !prevState
     })

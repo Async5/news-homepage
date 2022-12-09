@@ -6,6 +6,7 @@ module.exports = {
       fontSize: {
         body: ['15px', '26px'],
         head: ['40px', '39px'],
+        head2: ['32px'],
       },
       fontFamily: {
         body: ['Inter'],
