@@ -21,7 +21,7 @@ const Header = () => {
         <img className="w-11 md:w-14" src={Logo} alt="logo" />
 
         <img
-          className="md:hidden cursor-pointer z-10"
+          className="md:hidden md:cursor-pointer z-10"
           onClick={toggleMenu}
           src={menuStatus ? MenuIconClose : MenuIcon}
           alt="menu"
@@ -65,14 +65,14 @@ const Header = () => {
               return (
                 <li
                   key={index}
-                  className="cursor-pointer hover:text-primary-softRed transition-all">
+                  className="md:cursor-pointer hover:text-primary-softRed transition-all">
                   {item}
                 </li>
               )
             }
             return (
               <li
-                className="mr-10 cursor-pointer hover:text-primary-softRed transition-all"
+                className="mr-10 md:cursor-pointer hover:text-primary-softRed transition-all"
                 key={index}>
                 {item}
               </li>
