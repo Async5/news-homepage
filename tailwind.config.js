@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontSize: {
-        body: ['15px', '22px'],
+        body: ['15px', '26px'],
+        head: ['40px', '39px'],
       },
       fontFamily: {
         body: ['Inter'],

@@ -3,11 +3,15 @@ import React from 'react'
 // Components
 import Header from './components/Header'
 
+// Pages
+import Home from './pages/Home'
+
 const App = () => {
   return (
     <div className="font-body text-body bg-neutral-offWhite min-h-screen">
       <div className="px-4 max-w-6xl md:mx-auto">
         <Header />
+        <Home />
       </div>
     </div>
   )
