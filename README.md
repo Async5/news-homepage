@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL](frontendmentor.io/solutions/news-homepage-sVx5gXCk5l)
+- Solution URL: [solution URL](https://frontendmentor.io/solutions/news-homepage-sVx5gXCk5l)
 - Live Site URL: [live site](https://super-maamoul-9cec3a.netlify.app/)
 
 ## My process
